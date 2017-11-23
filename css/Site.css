@@ -1,0 +1,51 @@
+.smth{color: green; font-weight: bold; font-size:70px;text-align: center;}
+
+body {
+  background-image: url("http://thewallpaper.co/wp-content/uploads/2016/02/santa-paws-kittens-puffy-cats-widescreen-pussycats-high-resolution-pet-photos-animal-love-baby-amazing-cats-windows-wallpapers-of-cats-1504x1128-768x576.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+}
+
+#sidebar {
+  background-color: rgba(76, 175, 80, 0.4);
+}
+
+#content {
+  
+}
+
+p {
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+#box{ text-align: center;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: red;
+    color: white;
+}
